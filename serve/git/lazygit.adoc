@@ -1,0 +1,14 @@
+= Lazygit
+
+Using Lazygit as a replacement for GitK.
+
+== Viewing and Diffing branches
+Navigate to the 3rd pane, the branches pane, and highlight a branch. Press 'Shift+W' and select 'Diff {branch name}', then move up and highlight the branch you want to view as the current branch view.  You will now see the diff between the branches.
+
+=== Viewing and Diffing remote branches
+The only difference is that you hit '[' on the branches panel until you see
+'origin' appear and then you can hit enter and select from remote branches.
+
+
+=== Viewing diff filetree
+On the highlighted branch, hit enter and then hit enter on the commit, from there it will show the modified file tree between the branches.
